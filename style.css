@@ -1,0 +1,115 @@
+
+
+
+#calc-body{
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+
+}
+
+#display{
+    color: white;
+    text-align:left;
+    margin-right: 100%;
+    width: fit-content;
+    height: 80px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#top-screen{
+    height: 80px;
+    width: 100%;
+}
+
+#screen{
+    width: fit-content;
+    height: 160px;
+}
+button{
+    border-radius: 10000px;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    color: white;
+    font-size: 25px;
+    transition: background-color 0.3s ease; /* Add a transition effect for smooth color change */
+
+}
+
+button:hover{
+    transition-duration: 0.4s;
+}
+
+.num-btn {
+    background-color: #948f8f3f;
+    border: solid 1px black;
+}
+
+.operator-btn {
+    background-color: orange;
+    border: solid 1px black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+
+
+}
+
+.operator-btn:clicked{
+    background-color: white;
+    color: orange;
+}
+
+.action-btn{
+    background-color: rgb(170, 170, 170);
+    color: black;
+    border: solid 1px black;
+}
+
+.sign{
+    margin: 1px;
+}
+
+.minus-sign{
+    background-color: white;
+    height: 1px;
+    width: 17px;
+}
+
+
+#zero{
+    width: 128px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+#minus {
+    padding-left: 20px;
+}
+
+#divide{
+    padding: 1px;
+}
+
+#plusorminus{
+    font-size: 20px;
+}
+
+#equals{
+    background-color: orange;
+    border: solid 1px black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+
+}
+
+#equals button:hover{
+    background-color: orange;
+    border: solid 1px black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+
+}
+ 
